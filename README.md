@@ -1,9 +1,8 @@
 Projekt wykonany z:
-
 (https://www.frontendmentor.io/)
 https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G
 # Frontend Mentor - Shortly URL shortening API Challenge
-
+link do projektu github: https://michalheron.github.io/url-shortening-api-master/
 Aplikacja skraca linki za pomocą API z https://shrtco.de/
 strona po odświeżeniu pamięta skrócone strony.
 
