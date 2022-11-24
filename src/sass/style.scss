@@ -470,14 +470,16 @@ main {
 				width: 8rem;
 				margin-top: -7rem;
 			}
-			&__logoBrand {
-				background-image: url(/images/icon-brand-recognition.svg);
+			&__logo {
+				img {
+					transform: translate(50%, 50%);
+				}
 			}
-			&__logoDetailed {
-				background-image: url(/images/icon-detailed-records.svg);
-			}
+			
 			&__logoFully {
-				background-image: url(/images/icon-fully-customizable.svg);
+				img {
+					transform: translate(35%, 35%);
+				}
 			}
 
 			&__title {
@@ -597,18 +599,6 @@ footer {
 		&__linkPI:hover,
 		&__linkIN:hover {
 			filter: invert(53%) sepia(100%) saturate(278%) hue-rotate(131deg) brightness(102%) contrast(113%);
-		}
-		&__linkFB {
-			background-image: url(/images/icon-facebook.svg);
-		}
-		&__linkTW {
-			background-image: url(/images/icon-twitter.svg);
-		}
-		&__linkPI {
-			background-image: url(/images/icon-pinterest.svg);
-		}
-		&__linkIN {
-			background-image: url(/images/icon-instagram.svg);
 		}
 	}
 }
