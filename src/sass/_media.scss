@@ -1,0 +1,132 @@
+@media (min-width: 768px) {
+	nav {
+		.navigation {
+			.nav-elements {
+				display: inline-block;
+			}
+		}
+		.hamburger {
+			display: none;
+		}
+	}
+	.header {
+		margin-top: 5rem;
+		flex-direction: row-reverse;
+		.navAndImgBox {
+			width: 60%;
+			transform: translateX(0%);
+			.nav-elementsMobile {
+				display: none;
+			}
+			.picHumanWorkingBox {
+				.picHumanWorking {
+					width: 120%;
+					margin-top: -3rem;
+				}
+			}
+		}
+		.head-text {
+			font-size: 2.2rem;
+			margin-top: 0rem;
+			width: 50%;
+			text-align: left;
+		}
+	}
+	main {
+		.wrapper::before {
+			height: 5.1rem;
+		}
+		#linkAppContainer {
+			.shortenBox {
+				flex-direction: row;
+				padding: 3rem 5rem;
+				border-radius: 0.5rem;
+
+				&__btn {
+					width: auto;
+					margin-left: 1rem;
+					margin-top: 0rem;
+				}
+
+				&__noLinkText {
+					position: absolute;
+					bottom: 0.9rem;
+					left: 5rem;
+				}
+			}
+			.shortenedLink {
+				flex-direction: row;
+				padding: 1.5rem 3rem;
+
+				&__before,
+				&__after {
+					width: auto;
+					padding: 0;
+				}
+
+				&__before {
+					border: none;
+				}
+				&__after {
+					overflow-wrap: normal;
+				}
+				&__btn {
+					width: auto;
+					min-width: 9.556rem;
+					margin: 0 0 0 2rem;
+					padding: auto;
+				}
+			}
+		}
+		.advancedStatistics {
+			.advContainer::before {
+				width: 90%;
+				height: 1rem;
+				top: 75%;
+			}
+			.advContainer {
+				flex-direction: row;
+				&__description,
+				&__Box {
+					text-align: left;
+					align-items: flex-start;
+				}
+			}
+		}
+	}
+	footer {
+		.foot {
+			grid-template-columns: auto repeat(3, minmax(min-content, 17rem)) 16.5rem;
+			&__logo,
+			&__links,
+			&__linksSocMed {
+				justify-self: unset;
+			}
+			&__links {
+				display: block;
+			}
+			&__links > * {
+				display: block;
+			}
+			&__linkIN,
+			&__logo {
+				margin-right: 1.5rem;
+			}
+			&__headLink,
+			&__linksSocMed {
+				margin-top: 0rem;
+			}
+		}
+	}
+}
+@media (min-width: 992px) {
+	.header {
+		margin-top: 5rem;
+		margin-bottom: 7rem;
+	}
+}
+@media (min-width: 1250px) {
+	.wrapper {
+		margin: 0 auto;
+	}
+}
