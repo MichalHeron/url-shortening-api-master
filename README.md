@@ -14,3 +14,4 @@ Dla ćwiczeń nie wykonałem całego projektu za pomocą npx create-react-app my
 (oczywiście pamiętam że w ostatecznej wersji należałoby zmienić na production.min.js)
 
 Od siebie dodałem przycisk powrotu do góry strony oraz przesuwanie się menu wraz z obrazkiem w trybie mobilnym
+PS github nie widzi odpoweidniego tła w bosst your links today oraz w obszarze wprowadzania linkow - lokalnie dizala
