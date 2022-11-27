@@ -425,7 +425,7 @@ main {
 			&__description {
 				text-align: center;
 				color: $Gray;
-				width: 54rem;
+				max-width: 54rem;
 				margin: 0 auto;
 			}
 		}
@@ -475,7 +475,7 @@ main {
 					transform: translate(50%, 50%);
 				}
 			}
-			
+
 			&__logoFully {
 				img {
 					transform: translate(35%, 35%);
