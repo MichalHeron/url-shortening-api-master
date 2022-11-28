@@ -6,7 +6,7 @@ link do projektu github: https://michalheron.github.io/url-shortening-api-master
 Aplikacja skraca linki za pomocą API z https://shrtco.de/
 strona po odświeżeniu pamięta skrócone strony.
 
-W projekcie chciałem przede wszystkim poćwiczyć REACT-a (pierwszy mój projekt) oraz korzystanie z API. Starałem się trzymać metodologii BEM. Nie skupiałem się w 100% na responsywności strony.
+W projekcie chciałem przede wszystkim poćwiczyć REACT-a (pierwszy mój projekt) oraz korzystanie z API. Starałem się trzymać metodologii BEM. Nie skupiałem się w 100% na responsywności strony.  - nie używałem w tym projekcie jeszcze hook-ów 
 
 Dla ćwiczeń nie wykonałem całego projektu za pomocą npx create-react-app my-app, lecz użyłem linków REACT-a 
         <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
